@@ -9,7 +9,7 @@
 
 body{
     border: solid;
-    border-color: rgb(3, 46, 84);
+    border-color: pink;
     border-radius: 2em;
     /* https://developer.mozilla.org/fr/docs/Web/CSS/border */
     padding-left: 15px;
@@ -24,27 +24,27 @@ body{
     /* https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
     text-align: center;
     text-decoration: solid;
-    background-color: rgb(3, 46, 84);
+    background-color: pink;
     padding-top: 1em;
     padding-bottom: 1em;
     margin-left: 5px;
     /* https://developer.mozilla.org/fr/docs/Web/CSS/margin */
     margin-right: 5px;
-    color: white;
+    color: pink;
     /* https://developer.mozilla.org/fr/docs/Web/CSS/color */
 }
 .eltmenu:hover{
     zoom: 1.2;
-    background-color: white;
+    background-color: pink;
     /* https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
     color: black;
-    box-shadow: white;
+    box-shadow: pink;
     border: solid;
-    border-color: black;
+    border-color: pink;
 }
 h1{
-    background-color:rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color:pink;
+    color: pink;
     border-radius: 2em;
     padding-left: 15px;
     padding-right: 15px;
@@ -58,8 +58,8 @@ section{
     border: solid;
     /* border-color: rgb(25, 110, 184); */
     border-radius: 2em;
-    color: white;
-    background-color: rgb(255, 255, 255);
+    color: pink;
+    background-color: pink;
     padding-left: 15px;
     padding-right: 15px;
     /* https://developer.mozilla.org/fr/docs/Web/CSS/padding */
@@ -67,9 +67,9 @@ section{
     /* https://developer.mozilla.org/fr/docs/Web/CSS/width */
 }
 section:hover{
-    background-color: white;
-    color: black;
-    box-shadow: 1em 1em 1em rgb(0, 0, 0);
+    background-color: pink;
+    color: pink;
+    box-shadow: 1em 1em 1em pink;
 }
 p, ul,li, h5, strong, input, label,thead{
     font-size: 25px;
