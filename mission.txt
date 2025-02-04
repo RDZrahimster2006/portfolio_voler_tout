@@ -1,0 +1,6 @@
+1 :  J'ai initialisé un repository git dans mon dossier src qui contient mes codes HTML et CSS
+j'ai fait un git add pour ajouter tous les fichiers avant de faire un commit
+
+2: J'ai crée un repository github nomme portfolio
+lien : https://github.com/GrandLay-e/portfolio_test.git
+

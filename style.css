@@ -1,0 +1,156 @@
+/* .okok {
+    font-size: 24px;
+    transition: font-size 3s;
+}
+
+.okok:hover {
+    font-size: 48px;
+} */
+
+body{
+    border: solid;
+    border-color: rgb(3, 46, 84);
+    border-radius: 2em;
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/border */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.eltmenu{
+    border-radius: 3em;
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
+    text-align: center;
+    text-decoration: solid;
+    background-color: rgb(3, 46, 84);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 5px;
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/margin */
+    margin-right: 5px;
+    color: white;
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/color */
+}
+.eltmenu:hover{
+    zoom: 1.2;
+    background-color: white;
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
+    color: black;
+    box-shadow: white;
+    border: solid;
+    border-color: black;
+}
+h1{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 2em;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 15em;
+}
+
+section{
+    margin: 1em;
+    border: solid;
+    /* border-color: rgb(25, 110, 184); */
+    border-radius: 2em;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/padding */
+    width: 85em;
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/width */
+}
+section:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1em 1em 1em rgb(0, 0, 0);
+}
+p, ul,li, h5, strong, input, label,thead{
+    font-size: 25px;
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/font-size */
+    text-align: justify;
+}
+.contacter{
+    border: none;
+}
+form{
+    padding: 1em;
+    line-height: 0%;
+    /* border: solid; */
+    /* border-color: rgb(25, 110, 184); */
+    border-radius: 2em;
+    background-color: rgb(40, 2, 2);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#send{
+    border-radius: 1em;
+    margin-top: 2em;
+    padding: 1em;
+    color: white;
+    background-color: rgb(3, 46, 84);
+}
+label{
+    color: white;
+}
+
+._profil, .sec_profil {
+    background-color: rgb(0, 64, 78);
+        box-shadow: 1em 1em 1em rgb(0, 0, 0);
+
+}
+._formations, .sec_formation{
+    background-color: rgb(11, 94, 72);
+        box-shadow: 1em 1em 1em rgb(0, 0, 0);
+
+}
+._competences, .sec_competences {
+    background-color: rgb(2, 90, 153);
+        box-shadow: 1em 1em 1em rgb(0, 0, 0);
+
+}
+._experiences, .sec_experiences {
+    background-color: rgb(6, 51, 17);
+        box-shadow: 1em 1em 1em rgb(0, 0, 0);
+
+}
+._interets, .sec_interets{
+    background-color: rgb(75, 55, 12);
+        box-shadow: 1em 1em 1em rgb(0, 0, 0);
+
+}
+._contacts, .sec_contacts{
+    background-color: rgb(87, 10, 10);
+        box-shadow: 1em 1em 1em rgb(0, 0, 0);
+
+}
+
+/* HOVER SECTIONS */
+.sec_profil:hover {
+    box-shadow: 1em 1em 1em rgb(0, 64, 78);
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/box-shadow */
+}
+.sec_formation:hover {
+    box-shadow: 1em 1em 1em rgb(11, 94, 72);
+}
+.sec_competences:hover {
+    box-shadow: 1em 1em 1em rgb(2, 90, 153);
+}
+.sec_experiences:hover {
+    box-shadow: 1em 1em 1em  rgb(6, 51, 17);
+}
+.sec_interets:hover {
+    box-shadow: 1em 1em 1em rgb(75, 55, 12);
+}
+.sec_contacts:hover {
+    box-shadow: 1em 1em 1em rgb(87, 10, 10);
+}
+ul:hover, li:hover{
+    color: black;
+}
